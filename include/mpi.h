@@ -242,7 +242,7 @@ extern "C" {
 
 /* Address size integer */
 #ifdef _WIN64
-typedef __int64 MPI_Aint;
+typedef long long MPI_Aint;
 #else
 typedef int MPI_Aint;
 #endif
@@ -251,13 +251,13 @@ typedef int MPI_Aint;
 typedef int MPI_Fint;
 
 /* File offset */
-typedef __int64 MPI_Offset;
+typedef long long MPI_Offset;
 
 //
 // MPI-3 standard defines this type that can be used to address locations
 // within either memory or files as well as express count values.
 //
-typedef __int64 MPI_Count;
+typedef long long MPI_Count;
 
 
 /*---------------------------------------------------------------------------*/

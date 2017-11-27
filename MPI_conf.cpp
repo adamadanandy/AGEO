@@ -1,7 +1,7 @@
-#include "MPI_conf.h"
+#include "MPI_conf.hpp"
 #include<iostream>
-using namespace mpi;
-int Init(int* argc, char ***argv){
+
+int MPI_handler::Init(int* argc, char ***argv){
     MPI_Init(argc, argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &mype);
     MPI_Comm_size(MPI_COMM_WORLD, &numpe);
@@ -14,10 +14,10 @@ int Init(int* argc, char ***argv){
         std::cout << "Failing MPI Initial test! Exiting..." << '\n';
         MPI_Abort(MPI_COMM_WORLD,ierror);
     }
-    std::cout << "MPI Initial test passed..." << '\n';
+    std::cout << "MPI Initial test passed..."<< test_num << '\n';
     return 0;
 }
-int Final(void)
+int MPI_handler::Final(void)
 {
     MPI_Finalize();
     return 0;

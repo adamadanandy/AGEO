@@ -5,14 +5,14 @@
             "intelliSenseMode": "clang-x64",
             "includePath": [
                 "${workspaceFolder}",
-                "C:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++",
-                "C:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32",
-                "C:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward",
-                "C:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include",
-                "C:/llvm/include",
-                "C:/llvm/x86_64-w64-mingw32/include",
-                "C:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed",
-                "D:/Projects/AGEO/include"
+                "D:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++",
+                "D:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32",
+                "D:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward",
+                "D:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include",
+                "D:/llvm/include",
+                "D:/llvm/x86_64-w64-mingw32/include",
+                "D:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed",
+                "E:/stuff/AGEO/include"
             ],
             "defines": [
                 "_DEBUG",
@@ -23,14 +23,14 @@
             "browse": {
                 "path": [
                     "${workspaceFolder}",
-                    "C:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++",
-                    "C:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32",
-                    "C:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward",
-                    "C:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include",
-                    "C:/llvm/include",
-                    "C:/llvm/x86_64-w64-mingw32/include",
-                    "C:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed",
-                    "D:/Projects/AGEO/include"
+                    "D:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++",
+                    "D:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32",
+                    "D:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward",
+                    "D:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include",
+                    "D:/llvm/include",
+                    "D:/llvm/x86_64-w64-mingw32/include",
+                    "D:/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed",
+                    "E:/stuff/AGEO/include"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""

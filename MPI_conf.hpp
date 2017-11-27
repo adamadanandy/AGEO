@@ -1,11 +1,11 @@
-#pragma once
-#include"include/mpi.h"
-namespace mpi
+#include"mpi.h"
+class MPI_handler
 {
-int mype, numpe;
-int namelen;
-char processor_name[MPI_MAX_PROCESSOR_NAME];
-int test_num,ierror;
-int Init(int* argc, char ***argv);
-int Final(void);
-}
+public:
+    int mype, numpe;
+    int namelen;
+    char processor_name[MPI_MAX_PROCESSOR_NAME];
+    int test_num,ierror;
+    int Init(int* argc, char ***argv);
+    int Final(void);
+};
