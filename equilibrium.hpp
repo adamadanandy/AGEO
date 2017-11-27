@@ -1,24 +1,33 @@
 namespace equilibrium
 {
-    class MyClass
+    class EqField
     {
     public:
-        MyClass();
-        MyClass(MyClass &&) = default;
-        MyClass(const MyClass &) = default;
-        MyClass &operator=(MyClass &&) = default;
-        MyClass &operator=(const MyClass &) = default;
-        ~MyClass();
+        EqField();
+        EqField(EqField &&) = default;
+        EqField(const EqField &) = default;
+        EqField &operator=(EqField &&) = default;
+        EqField &operator=(const EqField &) = default;
+        ~EqField();
     
     private:
         
     };
     
-    MyClass::MyClass()
+    EqField::EqField()
     {
     }
     
-    MyClass::~MyClass()
+    EqField::~EqField()
     {
     }
+    class EqB:EqField
+    {
+    public:
+      EqB();
+      ~EqB();
+    };
+    class EqT:EqField
+    {
+    };
 }

@@ -1,11 +1,12 @@
-#include<iostream>
-#include<vector>
-#include<conio.h>
-#include "mpi.h"
 #include "MPI_conf.hpp"
+#include "mpi.h"
+#include <conio.h>
+#include <iostream>
+#include <vector>
 using namespace std;
-
-int main(int argc, char* argv[]){
+using namespace mpi;
+int main(int argc, char *argv[])
+{
     MPI_handler mpi_hdl;
     mpi_hdl.Init(&argc, &argv);
 
