@@ -15,6 +15,10 @@ int Init(int* argc, char ***argv){
         MPI_Abort(MPI_COMM_WORLD,ierror);
     }
     std::cout << "MPI Initial test passed..." << '\n';
-
+    return 0;
 }
-int Final(void);
+int Final(void)
+{
+    MPI_Finalize();
+    return 0;
+}
