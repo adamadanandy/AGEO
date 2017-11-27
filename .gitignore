@@ -1,4 +1,7 @@
 *.lib
 make.exe
 build/
+*.o
+*.obj
 .vscode/*.json
+.vscode/.launch.json
