@@ -1,5 +1,6 @@
 *.lib
 make.exe
+*.exe
 build/
 *.o
 *.obj
