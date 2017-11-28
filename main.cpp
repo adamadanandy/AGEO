@@ -8,10 +8,10 @@ using namespace mpi;
 int main(int argc, char *argv[])
 {
     MPI_handler mpi_hdl;
-    mpi_hdl.Init(&argc, &argv);
+    //mpi_hdl.Init(&argc, &argv);
 
-    std::cout << mpi_hdl.mype << mpi_hdl.test_num << '\n';
+    //std::cout << mpi_hdl.mype << mpi_hdl.test_num << '\n';
 
-    mpi_hdl.Final();
+    //mpi_hdl.Final();
     return 0;
 }
